@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Iynque-Ios7-Style-Stocks.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Iynque-Ios7-Style-Stocks.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HisseSenetlerimLib\HisseSenetlerimLib.csproj" />
+  </ItemGroup>
+
+</Project>
